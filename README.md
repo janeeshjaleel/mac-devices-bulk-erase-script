@@ -1,4 +1,4 @@
-# Jamf Pro — Bulk Wipe Computer Group Script
+# Jamf Pro - Bulk Wipe Computer Group Script
 
 A Bash script that authenticates with Jamf Pro via OAuth 2.0, retrieves all computers in a specified Smart or Static Group, and sends the **Wipe Computer** (Erase All Content and Settings) command to each one.
 
