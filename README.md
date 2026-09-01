@@ -1,0 +1,1 @@
+# macos-bulk-erase-script
