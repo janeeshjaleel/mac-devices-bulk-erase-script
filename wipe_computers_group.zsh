@@ -1,10 +1,21 @@
 #!/bin/bash
-
-# =============================================================================
-# wipe_computers_group.sh
-#Created by Janeesh Jaleel
-#Kindly test before deplpy on massive scale
-# =============================================================================
+# ==============================================================================
+# Script Name: mac-devices-bulk-erase-script
+# Author     : Janeesh Jaleel
+# ==============================================================================
+# DISCLAIMER & TERMS OF USE:
+# This script is provided "AS IS", without warranty of any kind, express or
+# implied, including but not limited to the warranties of merchantability,
+# fitness for a particular purpose, and non-infringement.
+# By using this script, you acknowledge and agree that you do so at your own risk.
+# In no event shall the author(s) or associated organizations be held liable for
+# any direct, indirect, incidental, consequential, special, or exemplary damages,
+# or any loss of data, profits, or business interruption arising from the use of
+# or inability to use this script, even if advised of the possibility of such
+# damages.
+#
+# If you do not agree to these terms, please do not run or use this script.
+# ==============================================================================
 # Description:
 #   Authenticates with Jamf Pro using OAuth 2.0 client credentials, retrieves
 #   all computers in a specified Smart/Static Group, and sends the Wipe Computer
